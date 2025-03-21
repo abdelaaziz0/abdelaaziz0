@@ -1,7 +1,7 @@
 # Bonjour, je suis Abdelaaziz Belkhair
 
 ## À propos de moi
-Je suis un élève-ingénieur en Télécommunications passionné par la cybersécurité, la programmation système et le traitement du signal. Mon parcours me permet d'allier compétences techniques et créativité dans la résolution de problèmes complexes, que ce soit dans le développement en C, Python ou MATLAB.
+Je suis un élève-ingénieur en Télécommunications passionné par la cybersécurité, la programmation système et le traitement du signal. Mon parcours me permet d'allier compétences techniques et créativité dans la résolution de problèmes complexes, que ce soit dans le développement en C, WEB, Python ou MATLAB.
 
 ## Expériences et formation
 - **ENSEIRB-MATMECA (2023 - Aujourd'hui)**  
