@@ -1,30 +1,55 @@
-# Bonjour, je suis Abdelaaziz Belkhair
+<h1 align="center">Abdelaaziz Belkhair</h1>
 
-## À propos de moi
-Je suis un élève-ingénieur en Télécommunications passionné par la cybersécurité, la programmation système et le traitement du signal. Mon parcours me permet d'allier compétences techniques et créativité dans la résolution de problèmes complexes, que ce soit dans le développement en C, WEB, Python ou MATLAB.
+<p align="center">
+  <b>Offensive Security · Penetration Testing · Security Tooling</b><br>
+  Engineering Student @ ENSEIRB-MATMECA (Bordeaux INP)
+</p>
 
-## Expériences et formation
-- **ENSEIRB-MATMECA (2023 - Aujourd'hui)**  
-  Formation d'ingénieur en Télécommunications avec un accent sur l'informatique, les réseaux, le traitement du signal et des images, ainsi que sur les communications numériques.
-
-## Compétences
-- **Programmation système et réseaux (C) :**  
-  - Sockets, threads, IPC, mémoire partagée, mutex.  
-  - Protocoles et architectures réseau (TCP/IP, SSH, HTTP, client/serveur, P2P).
-- **Développement en Python :**  
-  - Data science (Pandas, Scikit-learn, TensorFlow).  
-  - Développement web (Flask, Beautiful Soup) et traitement d'image (OpenCV).
-- **Sécurité informatique :**  
-  - Analyse de trafic réseau et détection d'intrusion.  
-  - Tests d'intrusion web (XSS, SQLi, CSRF) et reporting CVSS.
-- **Développement web et bases de données :**  
-  - Backend, SQLite et visualisation de données.
-- **Traitement du signal :**  
-  - Utilisation de MATLAB pour le traitement numérique des signaux et interfaces multimédia (SDL).
-
-## Contact
-- **Email :** [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
+<p align="center">
+  <a href="mailto:abelkhair002@bordeaux-inp.fr">Email</a> · 
+  <a href="https://abdelaaziz0.github.io/abdelaaziz.github.io/">Portfolio</a>
+</p>
 
 ---
 
-N'hésitez pas à me contacter pour toute collaboration ou question. Merci de votre visite !
+### Who I Am
+
+Cybersecurity-focused engineering student building offensive security tools and breaking things on purpose. Top 1% on TryHackMe, Top 5% on Hack The Box, 171 targets compromised. I write most of my tooling in Python and C.
+
+---
+
+### What I Work With
+
+```
+Offensive        Burp Suite · Metasploit · Nmap · SQLmap · BloodHound · Mimikatz · CrackMapExec · Impacket
+Active Directory Kerberoasting · Pass-the-Hash · DCSync · Golden Ticket · NTLM Relay
+Languages        Python · C · Bash · PowerShell
+Infrastructure   Linux (Kali / Debian) · Windows Server · Azure · Docker · Git
+Frameworks       MITRE ATT&CK · OWASP Top 10 · CVSS · CWE
+```
+
+---
+
+### Projects
+
+**SecureDevKit** — Hybrid SAST platform that combines static analysis rules with fine-tuned AI models (CodeBERT, Phi) to detect OWASP vulnerabilities in source code. Built during my R&D internship at AM Advisory. `Python`
+
+**Net-Aware Auth Auditor** — Audit tool for Windows authentication protocols. Targets misconfigurations and known vulnerabilities in Kerberos, NTLM, and LDAP deployments. `Python` `Kali Linux`
+
+**Malware Analysis Framework** — Static analysis pipeline for ELF binaries: parsing, deobfuscation, unpacking, and automated IoC extraction for threat intelligence workflows. `Python`
+
+**Honeypot + ML Detection** — Multi-service honeypot infrastructure with machine learning-based attack classification, centralized logging, and monitoring dashboards. `Python`
+
+**PQ-Secure Sync** — Implementation of post-quantum cryptographic primitives (Kyber, Dilithium) for secure synchronization, anticipating post-quantum migration requirements. `Python`
+
+---
+
+### Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abdelaaziz0&show_icons=true&theme=github_dark&hide_border=true&hide_title=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdelaaziz0&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+</p>
