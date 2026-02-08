@@ -1,0 +1,94 @@
+<svg width="900" height="340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0c10"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2130" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="340" fill="url(#bg2)"/>
+  <rect width="900" height="340" fill="url(#grid2)"/>
+
+  <!-- Section header -->
+  <rect x="0" y="0" width="900" height="40" fill="#0a0c10"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#21262d" stroke-width="1"/>
+  <circle cx="26" cy="20" r="4" fill="#da3633" opacity="0.8"/>
+  <text x="42" y="24" font-family="'Courier New',monospace" font-size="11" fill="#da3633" letter-spacing="3" font-weight="bold">TACTICS, TECHNIQUES &amp; PROCEDURES</text>
+  <text x="860" y="24" font-family="'Courier New',monospace" font-size="9" fill="#30363d" text-anchor="end">MITRE ATT&amp;CK MAPPED</text>
+
+  <!-- Row 1 -->
+  <!-- Card: Reconnaissance -->
+  <rect x="20" y="56" width="270" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="20" y="56" width="270" height="4" rx="3" fill="#da3633"/>
+  <rect x="32" y="72" width="8" height="8" rx="1" fill="#da3633" opacity="0.6"/>
+  <text x="48" y="80" font-family="'Courier New',monospace" font-size="10" fill="#da3633" letter-spacing="2" font-weight="bold">TA0043 — RECONNAISSANCE</text>
+  <line x1="32" y1="90" x2="278" y2="90" stroke="#161b22" stroke-width="1"/>
+  <text x="32" y="108" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Nmap  Masscan  Shodan</text>
+  <text x="32" y="124" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">ffuf  gobuster  dirb</text>
+  <text x="32" y="144" font-family="'Courier New',monospace" font-size="9" fill="#484f58">Network mapping, service enum,</text>
+  <text x="32" y="158" font-family="'Courier New',monospace" font-size="9" fill="#484f58">directory brute-force, OSINT</text>
+
+  <!-- Card: Initial Access -->
+  <rect x="310" y="56" width="270" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="310" y="56" width="270" height="4" rx="3" fill="#d29922"/>
+  <rect x="322" y="72" width="8" height="8" rx="1" fill="#d29922" opacity="0.6"/>
+  <text x="338" y="80" font-family="'Courier New',monospace" font-size="10" fill="#d29922" letter-spacing="2" font-weight="bold">TA0001 — INITIAL ACCESS</text>
+  <line x1="322" y1="90" x2="568" y2="90" stroke="#161b22" stroke-width="1"/>
+  <text x="322" y="108" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">SQLi  XSS  SSRF  RCE</text>
+  <text x="322" y="124" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">IDOR  LFI  Auth Bypass</text>
+  <text x="322" y="144" font-family="'Courier New',monospace" font-size="9" fill="#484f58">OWASP Top 10 exploitation,</text>
+  <text x="322" y="158" font-family="'Courier New',monospace" font-size="9" fill="#484f58">web app attack surface mapping</text>
+
+  <!-- Card: Credential Access -->
+  <rect x="600" y="56" width="280" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="600" y="56" width="280" height="4" rx="3" fill="#58a6ff"/>
+  <rect x="612" y="72" width="8" height="8" rx="1" fill="#58a6ff" opacity="0.6"/>
+  <text x="628" y="80" font-family="'Courier New',monospace" font-size="10" fill="#58a6ff" letter-spacing="2" font-weight="bold">TA0006 — CREDENTIAL ACCESS</text>
+  <line x1="612" y1="90" x2="868" y2="90" stroke="#161b22" stroke-width="1"/>
+  <text x="612" y="108" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Kerberoasting  AS-REP</text>
+  <text x="612" y="124" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Pass-the-Hash  DCSync</text>
+  <text x="612" y="144" font-family="'Courier New',monospace" font-size="9" fill="#484f58">Golden/Silver Ticket, NTLM</text>
+  <text x="612" y="158" font-family="'Courier New',monospace" font-size="9" fill="#484f58">relay, credential dumping</text>
+
+  <!-- Row 2 -->
+  <!-- Card: Execution -->
+  <rect x="20" y="196" width="270" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="20" y="196" width="270" height="4" rx="3" fill="#a371f7"/>
+  <rect x="32" y="212" width="8" height="8" rx="1" fill="#a371f7" opacity="0.6"/>
+  <text x="48" y="220" font-family="'Courier New',monospace" font-size="10" fill="#a371f7" letter-spacing="2" font-weight="bold">TA0002 — EXECUTION</text>
+  <line x1="32" y1="230" x2="278" y2="230" stroke="#161b22" stroke-width="1"/>
+  <text x="32" y="248" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Python  C  Bash  PowerShell</text>
+  <text x="32" y="264" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Metasploit  Custom Scripts</text>
+  <text x="32" y="284" font-family="'Courier New',monospace" font-size="9" fill="#484f58">Exploit dev, tool automation,</text>
+  <text x="32" y="298" font-family="'Courier New',monospace" font-size="9" fill="#484f58">payload generation</text>
+
+  <!-- Card: Lateral Movement -->
+  <rect x="310" y="196" width="270" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="310" y="196" width="270" height="4" rx="3" fill="#3fb950"/>
+  <rect x="322" y="212" width="8" height="8" rx="1" fill="#3fb950" opacity="0.6"/>
+  <text x="338" y="220" font-family="'Courier New',monospace" font-size="10" fill="#3fb950" letter-spacing="2" font-weight="bold">TA0008 — LATERAL MOVEMENT</text>
+  <line x1="322" y1="230" x2="568" y2="230" stroke="#161b22" stroke-width="1"/>
+  <text x="322" y="248" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">BloodHound  Impacket</text>
+  <text x="322" y="264" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">CrackMapExec  Responder</text>
+  <text x="322" y="284" font-family="'Courier New',monospace" font-size="9" fill="#484f58">AD path analysis, pivoting,</text>
+  <text x="322" y="298" font-family="'Courier New',monospace" font-size="9" fill="#484f58">SMB/WinRM traversal</text>
+
+  <!-- Card: Persistence -->
+  <rect x="600" y="196" width="280" height="120" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="600" y="196" width="280" height="4" rx="3" fill="#f47067"/>
+  <rect x="612" y="212" width="8" height="8" rx="1" fill="#f47067" opacity="0.6"/>
+  <text x="628" y="220" font-family="'Courier New',monospace" font-size="10" fill="#f47067" letter-spacing="2" font-weight="bold">TA0003 — PERSISTENCE</text>
+  <line x1="612" y1="230" x2="868" y2="230" stroke="#161b22" stroke-width="1"/>
+  <text x="612" y="248" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">C2 Frameworks  Backdoors</text>
+  <text x="612" y="264" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Priv Escalation  Evasion</text>
+  <text x="612" y="284" font-family="'Courier New',monospace" font-size="9" fill="#484f58">Kill chain completion,</text>
+  <text x="612" y="298" font-family="'Courier New',monospace" font-size="9" fill="#484f58">defense evasion, long-term access</text>
+
+</svg>

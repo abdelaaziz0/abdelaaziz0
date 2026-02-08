@@ -1,0 +1,53 @@
+<svg width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0c10"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2130" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg4)"/>
+  <rect width="900" height="220" fill="url(#grid4)"/>
+
+  <!-- Section header -->
+  <rect x="0" y="0" width="900" height="40" fill="#0a0c10"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#21262d" stroke-width="1"/>
+  <circle cx="26" cy="20" r="4" fill="#da3633" opacity="0.8"/>
+  <text x="42" y="24" font-family="'Courier New',monospace" font-size="11" fill="#da3633" letter-spacing="3" font-weight="bold">ARSENAL</text>
+  <text x="860" y="24" font-family="'Courier New',monospace" font-size="9" fill="#30363d" text-anchor="end">KNOWN TOOLING</text>
+
+  <!-- Tool categories as a clean table -->
+  <!-- Headers -->
+  <rect x="20" y="52" width="150" height="24" rx="0" fill="#161b22"/>
+  <rect x="172" y="52" width="708" height="24" rx="0" fill="#161b22"/>
+  <text x="36" y="68" font-family="'Courier New',monospace" font-size="9" fill="#484f58" letter-spacing="1.5">CATEGORY</text>
+  <text x="188" y="68" font-family="'Courier New',monospace" font-size="9" fill="#484f58" letter-spacing="1.5">TOOLS</text>
+  <line x1="20" y1="76" x2="880" y2="76" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 1: Web -->
+  <text x="36" y="96" font-family="'Courier New',monospace" font-size="10" fill="#da3633" font-weight="bold">Web Pentest</text>
+  <text x="188" y="96" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Burp Suite  ·  OWASP ZAP  ·  SQLmap  ·  ffuf  ·  Nikto  ·  gobuster  ·  dirb</text>
+  <line x1="20" y1="106" x2="880" y2="106" stroke="#161b22" stroke-width="0.5"/>
+
+  <!-- Row 2: Infra -->
+  <text x="36" y="126" font-family="'Courier New',monospace" font-size="10" fill="#d29922" font-weight="bold">Infrastructure</text>
+  <text x="188" y="126" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Nmap  ·  Masscan  ·  Metasploit  ·  Responder  ·  Shodan</text>
+  <line x1="20" y1="136" x2="880" y2="136" stroke="#161b22" stroke-width="0.5"/>
+
+  <!-- Row 3: AD -->
+  <text x="36" y="156" font-family="'Courier New',monospace" font-size="10" fill="#58a6ff" font-weight="bold">Active Directory</text>
+  <text x="188" y="156" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">BloodHound  ·  Mimikatz  ·  CrackMapExec  ·  Impacket  ·  PingCastle</text>
+  <line x1="20" y1="166" x2="880" y2="166" stroke="#161b22" stroke-width="0.5"/>
+
+  <!-- Row 4: Dev -->
+  <text x="36" y="186" font-family="'Courier New',monospace" font-size="10" fill="#3fb950" font-weight="bold">Development</text>
+  <text x="188" y="186" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Python (adv)  ·  C (adv)  ·  Bash  ·  PowerShell  ·  Docker  ·  Git</text>
+  <line x1="20" y1="196" x2="880" y2="196" stroke="#161b22" stroke-width="0.5"/>
+
+  <!-- Row 5: Platforms -->
+  <text x="36" y="214" font-family="'Courier New',monospace" font-size="10" fill="#a371f7" font-weight="bold">Platforms</text>
+  <text x="188" y="214" font-family="'Courier New',monospace" font-size="10" fill="#c9d1d9">Kali Linux  ·  Debian  ·  Windows Server  ·  Azure  ·  Wireshark  ·  Scapy</text>
+</svg>

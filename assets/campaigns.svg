@@ -1,0 +1,124 @@
+<svg width="900" height="540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0c10"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2130" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+    <filter id="cs">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="540" fill="url(#bg3)"/>
+  <rect width="900" height="540" fill="url(#grid3)"/>
+
+  <!-- Section header -->
+  <rect x="0" y="0" width="900" height="40" fill="#0a0c10"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#21262d" stroke-width="1"/>
+  <circle cx="26" cy="20" r="4" fill="#da3633" opacity="0.8"/>
+  <text x="42" y="24" font-family="'Courier New',monospace" font-size="11" fill="#da3633" letter-spacing="3" font-weight="bold">KNOWN CAMPAIGNS</text>
+  <text x="860" y="24" font-family="'Courier New',monospace" font-size="9" fill="#30363d" text-anchor="end">5 OPERATIONS DOCUMENTED</text>
+
+  <!-- Campaign 1: SecureDevKit -->
+  <rect x="20" y="56" width="860" height="82" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cs)"/>
+  <rect x="20" y="56" width="4" height="82" rx="2" fill="#da3633"/>
+  
+  <!-- Severity indicator -->
+  <rect x="40" y="68" width="68" height="18" rx="3" fill="#da363320" stroke="#da3633" stroke-width="0.8"/>
+  <text x="74" y="80" font-family="'Courier New',monospace" font-size="8" fill="#da3633" text-anchor="middle" letter-spacing="1" font-weight="bold">CRITICAL</text>
+  
+  <text x="120" y="81" font-family="'Courier New',monospace" font-size="14" fill="#e6edf3" font-weight="bold">SecureDevKit</text>
+  <text x="280" y="81" font-family="'Courier New',monospace" font-size="10" fill="#484f58">|  AM Advisory  |  2025</text>
+  
+  <text x="40" y="104" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">Hybrid SAST platform with AI-augmented vulnerability detection. Fine-tuned CodeBERT and Phi</text>
+  <text x="40" y="120" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">models for automated OWASP identification at source level. Market benchmarking + KPI tracking.</text>
+  
+  <!-- Tags -->
+  <rect x="700" y="68" width="52" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="726" y="79" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">python</text>
+  <rect x="758" y="68" width="48" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="782" y="79" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">sast</text>
+  <rect x="812" y="68" width="56" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="840" y="79" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">ai/ml</text>
+
+  <!-- Campaign 2: Auth Auditor -->
+  <rect x="20" y="152" width="860" height="82" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cs)"/>
+  <rect x="20" y="152" width="4" height="82" rx="2" fill="#d29922"/>
+  
+  <rect x="40" y="164" width="46" height="18" rx="3" fill="#d2992220" stroke="#d29922" stroke-width="0.8"/>
+  <text x="63" y="176" font-family="'Courier New',monospace" font-size="8" fill="#d29922" text-anchor="middle" letter-spacing="1" font-weight="bold">HIGH</text>
+  
+  <text x="98" y="177" font-family="'Courier New',monospace" font-size="14" fill="#e6edf3" font-weight="bold">Net-Aware Auth Auditor</text>
+  
+  <text x="40" y="200" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">Automated audit tool for Windows authentication protocols. Probes Kerberos, NTLM, and LDAP</text>
+  <text x="40" y="216" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">deployments for misconfigurations, weak policies, and known attack vectors.</text>
+  
+  <rect x="700" y="164" width="52" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="726" y="175" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">python</text>
+  <rect x="758" y="164" width="36" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="776" y="175" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">AD</text>
+  <rect x="800" y="164" width="68" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="834" y="175" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">kerberos</text>
+
+  <!-- Campaign 3: Malware Framework -->
+  <rect x="20" y="248" width="860" height="82" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cs)"/>
+  <rect x="20" y="248" width="4" height="82" rx="2" fill="#d29922"/>
+  
+  <rect x="40" y="260" width="46" height="18" rx="3" fill="#d2992220" stroke="#d29922" stroke-width="0.8"/>
+  <text x="63" y="272" font-family="'Courier New',monospace" font-size="8" fill="#d29922" text-anchor="middle" letter-spacing="1" font-weight="bold">HIGH</text>
+  
+  <text x="98" y="273" font-family="'Courier New',monospace" font-size="14" fill="#e6edf3" font-weight="bold">Malware Analysis Framework</text>
+  
+  <text x="40" y="296" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">Static analysis pipeline for ELF binaries. Automated parsing, deobfuscation, unpacking, and</text>
+  <text x="40" y="312" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">IoC extraction designed for rapid threat intelligence triage of unknown Linux samples.</text>
+  
+  <rect x="700" y="260" width="52" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="726" y="271" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">python</text>
+  <rect x="758" y="260" width="36" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="776" y="271" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">RE</text>
+  <rect x="800" y="260" width="68" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="834" y="271" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">threat-intel</text>
+
+  <!-- Campaign 4: Honeypot -->
+  <rect x="20" y="344" width="860" height="82" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cs)"/>
+  <rect x="20" y="344" width="4" height="82" rx="2" fill="#58a6ff"/>
+  
+  <rect x="40" y="356" width="60" height="18" rx="3" fill="#58a6ff20" stroke="#58a6ff" stroke-width="0.8"/>
+  <text x="70" y="368" font-family="'Courier New',monospace" font-size="8" fill="#58a6ff" text-anchor="middle" letter-spacing="1" font-weight="bold">MEDIUM</text>
+  
+  <text x="112" y="369" font-family="'Courier New',monospace" font-size="14" fill="#e6edf3" font-weight="bold">Honeypot + ML Detection</text>
+  
+  <text x="40" y="392" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">Multi-service honeypot infrastructure with machine learning-based attack classification,</text>
+  <text x="40" y="408" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">centralized logging, real-time alerting, and SIEM-pattern monitoring dashboards.</text>
+  
+  <rect x="700" y="356" width="52" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="726" y="367" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">python</text>
+  <rect x="758" y="356" width="28" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="772" y="367" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">ML</text>
+  <rect x="792" y="356" width="46" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="815" y="367" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">SIEM</text>
+
+  <!-- Campaign 5: PQ-Secure -->
+  <rect x="20" y="440" width="860" height="82" rx="5" fill="#0d1117" stroke="#21262d" stroke-width="1" filter="url(#cs)"/>
+  <rect x="20" y="440" width="4" height="82" rx="2" fill="#58a6ff"/>
+  
+  <rect x="40" y="452" width="60" height="18" rx="3" fill="#58a6ff20" stroke="#58a6ff" stroke-width="0.8"/>
+  <text x="70" y="464" font-family="'Courier New',monospace" font-size="8" fill="#58a6ff" text-anchor="middle" letter-spacing="1" font-weight="bold">MEDIUM</text>
+  
+  <text x="112" y="465" font-family="'Courier New',monospace" font-size="14" fill="#e6edf3" font-weight="bold">PQ-Secure Sync</text>
+  
+  <text x="40" y="488" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">Post-quantum cryptographic primitives implementation (Kyber, Dilithium) for secure data</text>
+  <text x="40" y="504" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">synchronization. Exploring migration strategies ahead of quantum computing threats.</text>
+  
+  <rect x="700" y="452" width="52" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="726" y="463" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">python</text>
+  <rect x="758" y="452" width="46" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="781" y="463" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">kyber</text>
+  <rect x="810" y="452" width="58" height="16" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="839" y="463" font-family="'Courier New',monospace" font-size="8" fill="#8b949e" text-anchor="middle">dilithium</text>
+
+</svg>
