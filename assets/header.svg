@@ -1,0 +1,161 @@
+<svg width="900" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0c10"/>
+      <stop offset="40%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#10151c"/>
+    </linearGradient>
+    
+    <!-- Red accent gradient -->
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#da3633;stop-opacity:0"/>
+      <stop offset="15%" style="stop-color:#da3633;stop-opacity:1"/>
+      <stop offset="85%" style="stop-color:#da3633;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#da3633;stop-opacity:0"/>
+    </linearGradient>
+
+    <!-- Subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2130" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+
+    <!-- Glow filter for name -->
+    <filter id="nameGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#da3633" flood-opacity="0.15" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow for avatar border -->
+    <filter id="avatarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline overlay -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.008"/>
+    </pattern>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="900" height="320" fill="url(#bgGrad)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="900" height="320" fill="url(#grid)"/>
+  
+  <!-- Scanline overlay -->
+  <rect width="900" height="320" fill="url(#scanlines)"/>
+
+  <!-- Top red accent line -->
+  <rect y="0" width="900" height="2" fill="url(#redAccent)"/>
+
+  <!-- Left vertical accent -->
+  <rect x="0" y="0" width="2" height="320" fill="#da3633" opacity="0.3"/>
+
+  <!-- Corner brackets - top left -->
+  <path d="M 20 24 L 20 14 L 30 14" fill="none" stroke="#da3633" stroke-width="1.5" opacity="0.6"/>
+  <!-- Corner brackets - top right -->
+  <path d="M 880 24 L 880 14 L 870 14" fill="none" stroke="#da3633" stroke-width="1.5" opacity="0.6"/>
+  <!-- Corner brackets - bottom left -->
+  <path d="M 20 296 L 20 306 L 30 306" fill="none" stroke="#da3633" stroke-width="1.5" opacity="0.6"/>
+  <!-- Corner brackets - bottom right -->
+  <path d="M 880 296 L 880 306 L 870 306" fill="none" stroke="#da3633" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Classification bar top -->
+  <rect x="300" y="14" width="300" height="18" rx="2" fill="#da3633" opacity="0.08"/>
+  <text x="450" y="27" font-family="'Courier New',monospace" font-size="9" fill="#da3633" text-anchor="middle" letter-spacing="4" opacity="0.7">THREAT ACTOR PROFILE</text>
+
+  <!-- Avatar box -->
+  <rect x="44" y="58" width="82" height="82" rx="6" fill="#0a0c10" stroke="#da3633" stroke-width="1.5" filter="url(#avatarGlow)"/>
+  <rect x="48" y="62" width="74" height="74" rx="4" fill="#0d1117"/>
+  <!-- Avatar inner design - hexagon pattern -->
+  <polygon points="85,72 108,85 108,111 85,124 62,111 62,85" fill="none" stroke="#da3633" stroke-width="1" opacity="0.3"/>
+  <polygon points="85,80 100,89 100,107 85,116 70,107 70,89" fill="none" stroke="#da3633" stroke-width="0.8" opacity="0.2"/>
+  <text x="85" y="102" font-family="'Courier New',monospace" font-size="26" fill="#da3633" text-anchor="middle" font-weight="bold" opacity="0.9">AB</text>
+
+  <!-- Subject name -->
+  <text x="152" y="82" font-family="'Courier New',monospace" font-size="28" fill="#e6edf3" font-weight="bold" letter-spacing="2" filter="url(#nameGlow)">ABDELAAZIZ BELKHAIR</text>
+
+  <!-- Role line -->
+  <text x="152" y="106" font-family="'Courier New',monospace" font-size="12" fill="#8b949e" letter-spacing="1.5">OFFENSIVE SECURITY OPERATOR</text>
+
+  <!-- Metadata line -->
+  <line x1="152" y1="118" x2="620" y2="118" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Tags row -->
+  <!-- Tag: ENSEIRB -->
+  <rect x="152" y="128" width="140" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="222" y="142" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">ENSEIRB-MATMECA</text>
+  
+  <!-- Tag: Bordeaux -->
+  <rect x="300" y="128" width="116" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="358" y="142" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">BORDEAUX, FR</text>
+  
+  <!-- Tag: Morocco -->
+  <rect x="424" y="128" width="106" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="477" y="142" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">ORIGIN: MA</text>
+
+  <!-- Right side status panel -->
+  <rect x="680" y="58" width="190" height="82" rx="4" fill="#0a0c10" stroke="#21262d" stroke-width="1"/>
+  <text x="775" y="76" font-family="'Courier New',monospace" font-size="8" fill="#484f58" text-anchor="middle" letter-spacing="2">STATUS</text>
+  <line x1="696" y1="82" x2="854" y2="82" stroke="#21262d" stroke-width="0.5"/>
+  <circle cx="708" cy="96" r="3" fill="#3fb950"/>
+  <text x="718" y="100" font-family="'Courier New',monospace" font-size="10" fill="#3fb950" letter-spacing="1">ACTIVE</text>
+  <text x="696" y="118" font-family="'Courier New',monospace" font-size="9" fill="#484f58">THREAT LEVEL:</text>
+  <text x="796" y="118" font-family="'Courier New',monospace" font-size="9" fill="#da3633" font-weight="bold">CRITICAL</text>
+  <text x="696" y="134" font-family="'Courier New',monospace" font-size="9" fill="#484f58">LAST SEEN:</text>
+  <text x="782" y="134" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">2026-02-08</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="170" x2="860" y2="170" stroke="#21262d" stroke-width="1"/>
+  <rect x="420" y="164" width="60" height="12" rx="2" fill="#0d1117"/>
+  <text x="450" y="173" font-family="'Courier New',monospace" font-size="8" fill="#484f58" text-anchor="middle" letter-spacing="2">INTEL</text>
+
+  <!-- Stats boxes -->
+  <!-- Box 1 -->
+  <rect x="40" y="190" width="195" height="70" rx="5" fill="#0a0c10" stroke="#21262d" stroke-width="1"/>
+  <rect x="40" y="190" width="195" height="3" rx="2" fill="#da3633"/>
+  <text x="137" y="218" font-family="'Courier New',monospace" font-size="9" fill="#484f58" text-anchor="middle" letter-spacing="2">TRYHACKME</text>
+  <text x="137" y="240" font-family="'Courier New',monospace" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">TOP 1%</text>
+  <text x="137" y="254" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle">200+ rooms | 138h</text>
+
+  <!-- Box 2 -->
+  <rect x="250" y="190" width="195" height="70" rx="5" fill="#0a0c10" stroke="#21262d" stroke-width="1"/>
+  <rect x="250" y="190" width="195" height="3" rx="2" fill="#d29922"/>
+  <text x="347" y="218" font-family="'Courier New',monospace" font-size="9" fill="#484f58" text-anchor="middle" letter-spacing="2">HACK THE BOX</text>
+  <text x="347" y="240" font-family="'Courier New',monospace" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">TOP 5%</text>
+  <text x="347" y="254" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle">171 targets pwned</text>
+
+  <!-- Box 3 -->
+  <rect x="460" y="190" width="195" height="70" rx="5" fill="#0a0c10" stroke="#21262d" stroke-width="1"/>
+  <rect x="460" y="190" width="195" height="3" rx="2" fill="#58a6ff"/>
+  <text x="557" y="218" font-family="'Courier New',monospace" font-size="9" fill="#484f58" text-anchor="middle" letter-spacing="2">CERTIFICATIONS</text>
+  <text x="557" y="240" font-family="'Courier New',monospace" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">6+</text>
+  <text x="557" y="254" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle">Red Team | Pentest | Web</text>
+
+  <!-- Box 4 -->
+  <rect x="670" y="190" width="195" height="70" rx="5" fill="#0a0c10" stroke="#21262d" stroke-width="1"/>
+  <rect x="670" y="190" width="195" height="3" rx="2" fill="#3fb950"/>
+  <text x="767" y="218" font-family="'Courier New',monospace" font-size="9" fill="#484f58" text-anchor="middle" letter-spacing="2">LANGUAGES</text>
+  <text x="767" y="240" font-family="'Courier New',monospace" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">EN | FR | AR</text>
+  <text x="767" y="254" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle">TOEIC 945/990</text>
+
+  <!-- Bottom accent line -->
+  <rect y="290" width="900" height="1" fill="#21262d"/>
+  
+  <!-- Bottom info -->
+  <text x="40" y="308" font-family="'Courier New',monospace" font-size="8" fill="#30363d" letter-spacing="1">abelkhair002@bordeaux-inp.fr</text>
+  <text x="860" y="308" font-family="'Courier New',monospace" font-size="8" fill="#30363d" text-anchor="end" letter-spacing="1">github.com/abdelaaziz0</text>
+  
+  <!-- Bottom red accent line -->
+  <rect y="318" width="900" height="2" fill="url(#redAccent)"/>
+</svg>
