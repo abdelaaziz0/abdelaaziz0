@@ -1,39 +1,39 @@
-<div align="center">
-  <img src="assets/header.svg" alt="Abdelaaziz Belkhair — Threat Actor Profile" width="900"/>
-</div>
+# Abdelaaziz Belkhair
 
-<br>
+**Engineering student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense Marseille**
 
-<div align="center">
-  <img src="assets/about.svg" alt="Subject Description" width="900"/>
-</div>
+---
 
-<br>
+I'm an engineering student focused on offensive security and systems programming. Most of what I build lives at the intersection of Windows internals and practical red team tooling.
 
-<div align="center">
-  <img src="assets/ttp-grid.svg" alt="Tactics, Techniques & Procedures" width="900"/>
-</div>
+---
 
-<br>
+## What I work on
 
-<div align="center">
-  <img src="assets/arsenal.svg" alt="Arsenal" width="900"/>
-</div>
+**Offensive Security**
+- Active Directory attack tooling
+- Web application pentesting
 
-<br>
+**Systems & Low-level**
+- Network protocols — TCP/IP, SMB, LDAP, Kerberos, HTTP
+- C — sockets, threads, IPC, shared memory
+- Python — offensive tooling, scripting, automation
 
-<div align="center">
-  <img src="assets/methodology.svg" alt="Methodology" width="900"/>
-</div>
+**Data Science**
+- ML pipelines (Pandas, Scikit-learn, TensorFlow)
 
-<br>
+---
 
-<div align="center">
-  <img src="assets/campaigns.svg" alt="Known Campaigns" width="900"/>
-</div>
+## Stack
 
-<br>
+```
+Languages   Python · C · MATLAB
+Offensive   Impacket · BloodHound · NetExec · Burp Suite · Hashcat
+Protocols   Kerberos · LDAP · SMB · HTTP
+OS          Kali Linux · Windows / Active Directory
+```
+---
 
-<div align="center">
-  <img src="assets/footer.svg" alt="Background & Contact" width="900"/>
-</div>
+## Contact
+
+**Email** — [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
