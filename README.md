@@ -8,4 +8,4 @@ Current focus: AD graph generation, ACL/SDDL parsing, object relationship recons
 
 I mainly use Python for tooling and automation, and C for systems-level work.
 
-**Contact** — [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
+**Contact** - [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
