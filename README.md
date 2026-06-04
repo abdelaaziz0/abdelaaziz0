@@ -1,39 +1,11 @@
 # Abdelaaziz Belkhair
 
-**Engineering student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense Marseille**
+**Engineering Student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense Marseille**
 
----
+I build offensive security tooling for Active Directory, Windows authentication, and web applications.
 
-I'm an engineering student focused on offensive security and systems programming. Most of what I build lives at the intersection of Windows internals and practical red team tooling.
+Current focus: AD graph generation, ACL/SDDL parsing, object relationship reconstruction, BloodHound-style attack-path modeling, and web application security around authentication, authorization, input handling, and session logic.
 
----
+I mainly use Python for tooling and automation, and C for systems-level work.
 
-## What I work on
-
-**Offensive Security**
-- Active Directory attack tooling
-- Web application pentesting
-
-**Systems & Low-level**
-- Network protocols — TCP/IP, SMB, LDAP, Kerberos, HTTP
-- C — sockets, threads, IPC, shared memory
-- Python — offensive tooling, scripting, automation
-
-**Data Science**
-- ML pipelines (Pandas, Scikit-learn, TensorFlow)
-
----
-
-## Stack
-
-```
-Languages   Python · C · MATLAB
-Offensive   Impacket · BloodHound · NetExec · Burp Suite · Hashcat
-Protocols   Kerberos · LDAP · SMB · HTTP
-OS          Kali Linux · Windows / Active Directory
-```
----
-
-## Contact
-
-**Email** — [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
+**Contact** — [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
