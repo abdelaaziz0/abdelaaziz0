@@ -2,10 +2,10 @@
 
 **Engineering Student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense Marseille**
 
-I build offensive security tooling for Active Directory, Windows authentication, and web applications.
+I work on Active Directory security, Windows identity, and offensive tooling.
 
-Current focus: AD graph generation, ACL/SDDL parsing, object relationship reconstruction, BloodHound-style attack-path modeling, and web application security around authentication, authorization, input handling, and session logic.
+I am interested in domain internals, authentication, access control, Kerberos, privilege relationships, and attack-path analysis.
 
-I mainly use Python for tooling and automation, and C for systems-level work.
+I build tools that make AD environments easier to inspect, understand, and assess.
 
 **Contact** - [Abelkhair002@bordeaux-inp.fr](mailto:Abelkhair002@bordeaux-inp.fr)
