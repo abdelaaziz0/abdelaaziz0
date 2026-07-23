@@ -1,5 +1,3 @@
-# Abdelaaziz Belkhair
-
 **Engineering Student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense Marseille**
 
 I work on Active Directory security, Windows identity, and offensive tooling.
