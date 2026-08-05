@@ -1,4 +1,4 @@
-**Engineering Student @ ENSEIRB-MATMECA · Pentesting Intern @ Orange Cyberdefense**
+**Pentester @ Orange Cyberdefense**
 
 I work on Active Directory security, Windows identity, and offensive tooling.
 
