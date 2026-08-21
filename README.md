@@ -1,4 +1,4 @@
-**Pentester @ Orange Cyberdefense**
+**Pentester**
 
 I work on Active Directory security, Windows identity, and offensive tooling.
 
