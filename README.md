@@ -6,4 +6,4 @@ I am interested in domain internals, authentication, access control, Kerberos, p
 
 I build tools that make AD environments easier to inspect, understand, and assess.
 
-**Contact** - [abdelaziz.belkhair.2003@gmail.com](mailto:abdelaziz.belkhair.2003@gmail.com)
+**Contact** - [y0unga2ubi5@proton.me](mailto:y0unga2ubi5@proton.me)
